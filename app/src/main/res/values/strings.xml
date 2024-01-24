@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AristiDevCursoApp1</string>
+    <string name="sex2">HOMBRE</string>
+    <string name="sex1">MUJER</string>
+    <string name="altura">Altura</string>
+    <string name="age">Edad</string>
+    <string name="weight">Peso</string>
+</resources>

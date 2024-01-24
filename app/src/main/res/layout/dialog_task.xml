@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/background_selected"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <EditText
+            android:id="@+id/etTask"
+            android:maxLines="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="Añade el nombre de la tarea"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/rgCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbBuisness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/negocios"
+                android:checked="true"
+                android:text="Negocios"
+                android:textColor="@color/white" />
+            <RadioButton
+                android:id="@+id/rbPersonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/personal"
+                android:checked="false"
+                android:text="Personal"
+                android:textColor="@color/white" />
+            <RadioButton
+                android:id="@+id/rbOther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/otros"
+                android:checked="false"
+                android:text="Otros"
+                android:textColor="@color/white" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/btnAnadirTarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Añadir Tarea"/>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

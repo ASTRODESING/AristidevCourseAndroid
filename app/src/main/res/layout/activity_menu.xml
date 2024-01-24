@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menuactivity.MenuActivity"
+    android:layout_margin="16dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSaludar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saludar"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Do"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSuperHeroApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SuperHero Api"
+        />
+
+
+
+
+</LinearLayout>
